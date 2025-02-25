@@ -77,10 +77,10 @@ int main() {
     PIB per Capita: (PIBPerCapita)
     */
    
-    float PopulationDensity = Population/Area;
-    float PopulationDensity2 = Population2/Area2;
-    float PIBPerCapita = PIB/Population;
-    float PIBPerCapita2 = PIB2/Population2;
+    float PopulationDensity = (float)(Population)/(float)(Area);
+    float PopulationDensity2 = (float)(Population2)/(float)(Area2);
+    float PIBPerCapita = (float)(PIB)/(float)(Population);
+    float PIBPerCapita2 = (float)(PIB2)/(float)(Population2);
     /*
     Template de textos
     */
