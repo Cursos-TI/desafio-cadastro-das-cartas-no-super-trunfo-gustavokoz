@@ -18,7 +18,7 @@ int main() {
     char City[50],City2[50];
     int PIB,PIB2,Area,Area2,Population,Population2,PointsAttractions,PointsAttractions2;
 
-    /*Formulario primeira carta*/
+    // Formulario primeira carta
 
     printf("1° Carta\n");
     printf("Qual é o estado (A-H):");
@@ -42,7 +42,7 @@ int main() {
     printf("Qual é o número de pontos turísticos:");
     scanf("%d", &PointsAttractions);
 
-    /*Formulario segunda carta*/
+    //Formulario segunda carta
 
     printf("2° Carta\n");
 
@@ -67,12 +67,9 @@ int main() {
     printf("Qual é o número de pontos turísticos:");
     scanf("%d", &PointsAttractions2);
 
-    /*
-    fim dos formularios
-    */
-    /*
-    Template de textos
-    */
+    // fim dos formularios
+    
+    // Template de textos
 
     char StateText[] = "Estado:";
     char CardCodeText[] = "Código:";
@@ -82,15 +79,13 @@ int main() {
     char PIBText[] =  "PIB:";
     char PointsAttractionsText[] =   "Número de Pontos Turísticos:";
     
-    /*
-    fim dos templates
-    */
-    /*
-    inicio do relatorio da primeira carta
-    */
+    // fim dos templates
+
+    // inicio do relatorio da primeira carta
 
     printf("==========================================\n");
-    printf("Carta 01:\n%s %c\n",StateText,State);
+    printf("Carta 01:\n");
+    printf("%s %c\n",StateText,State);
     printf("%s %c%s\n",CardCodeText,State,CardCode);
     printf("%s %s\n",CityText,City);
     printf("%s %d\n",PopulationText,Population);
@@ -98,12 +93,11 @@ int main() {
     printf("%s %d\n",PIBText,PIB);
     printf("%s %d\n",PointsAttractionsText,PointsAttractions);
     
-    /*
-    inicio do relatorio da segunda carta
-    */
+    // inicio do relatorio da segunda carta
     
     printf("==========================================\n");
-    printf("Carta 02:\n%s %c\n",StateText,State2);
+    printf("Carta 02:\n");
+    printf("%s %c\n",StateText,State2);
     printf("%s %c%s\n",CardCodeText,State2,CardCode2);
     printf("%s %s\n",CityText,City2);
     printf("%s %d\n",PopulationText,Population2);
@@ -111,9 +105,7 @@ int main() {
     printf("%s %d\n",PIBText,PIB2);
     printf("%s %d\n",PointsAttractionsText,PointsAttractions2);
 
-    /*
-    fim dos relatorios
-    */
+    // fim dos relatorios
 
     return 0;
 }
